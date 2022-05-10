@@ -1,0 +1,43 @@
+<html><head>
+    <title>Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"  href="src/css/styleconvertor.css">
+</head>
+
+<body>
+<background class="b1">
+<calcDisplay class="b2">
+<length class="b3">
+    <span class="h4" id="length-el"></span>
+    <span class="h3">Length (Meter/Feet)</span>
+</length>
+<volume class="v4_150">
+    <span class="h6" id="volume-el"></span>
+    <span class="h5">Volume (Liters/Gallons)</span>
+</volume>
+<mass class="v4_153">
+    <span class="h8" id="mass-el"></span>
+    <span class="h7">Mass (Kilograms/Pounds)</span>
+</mass>
+<power class="v4_154">
+    <span class="h10" id="power-el"></span>
+    <span class="h9">Power (Horsepower/KW)</span>
+</power>
+</calcDisplay>
+<metric class="v6_46">
+  <topcolor class="topcolor">
+  </topcolor>
+    <span class="h2" id="input-el">
+      <input type="number" value="inputNum" id="inputNum" placeholder="InputNumber" >
+      <button onclick="entNum()">CALCULATE</button></span> 
+    <span class="h1">Metric/Imperial unit conversion</span>
+</metric>
+</background>
+
+    <script src="src/js/converter.js"></script>
+</body>
+
+</html>
