@@ -1,0 +1,210 @@
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(96,96, 96);
+    margin-bottom: 20px;
+}
+
+.video-author {
+    font-size: 14px;
+    color: rgb(96,96, 96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(96,96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.span-example{
+    cursor: pointer;
+    
+}
+
+.span-example:hover{
+    text-decoration: underline;
+}
+
+.taohma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.deal {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sales {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.html-class{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.html-pro{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana;
+    color: gray;
+    font-size: 15px;
+}
+
+.html-par{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Verdana;
+    width: 280px;
+    font-size: 15px;
+}
+
+.html-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arial-1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.arial-2 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.arial-3 {
+    cursor: pointer;
+    margin-top: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.macbook-1{
+    margin-top: 50px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macbook-2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macbook-3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macbook-4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bo-btn{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+}
+
+.market-1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.market-11 {
+    color: gray;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.market-2 {
+    margin-top: 5px;
+    color: green;
+}
+
+.market-3 {
+    margin-top: 5px;
+    color: gray;
+}
+
+.market-33 {
+    color: red;
+}
+
+.mail-1 {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.mail-11 {
+    font-weight: normal;
+    color: gray;
+}
+
+.mail-2 {
+    margin-top: 5px;
+    width: 500px;
+}
+
+.mail-3 {
+    margin-top: 5px;
+}
+.mail-33 {
+    color: blue;
+}

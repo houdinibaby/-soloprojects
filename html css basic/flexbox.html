@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Practice</title>
+    </head>
+
+    <body style="padding-bottom: 1000px;">
+        <div style="display: flex;
+        flex-direction: row;">
+            <div style="background-color: lightblue;">div 1 text</div>
+            <div style="background-color: lightpink;">div 2<p>text</p></div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;">
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+            <div style="background-color: lightpink;
+                flex: 1;">flex: 1</div>
+        </div>
+
+        
+        
+        <div style="
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;">
+            <div style="background-color: lightblue;
+                flex: 1;">flex: 1</div>
+            <div style="background-color: lightpink;
+                width: 100px;">100px</div>
+            <div style="background-color: lightblue;
+                flex: 2;">flex: 2</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;">
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+            <div style="background-color: lightpink;
+                width: 100px;">100px</div>
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;">
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+            <div style="background-color: lightpink;
+                width: 100px;">100px</div>
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;">
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+            <div style="background-color: lightpink;
+                width: 100px;">100px</div>
+            <div style="background-color: lightblue;
+                width: 100px;">100px</div>
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;">
+            <div style="background-color: lightblue; 
+                width: 200px;">200px</div>
+            <div style="background-color: lightpink;
+                width: 75px;">75px</div>
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;">
+            <div style="background-color: lightblue; 
+                width: 50px;">item1</div>
+            <div style="background-color: lightpink;
+                flex: 1;">item2</div>
+            <div style="background-color: lightblue; 
+                width: 75px;">item3</div>
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;
+        justify-content: space-between;">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+            <div style="background-color: lightpink;">item3</div>
+            <div style="background-color: lightpink;">item4</div>
+        </div>
+
+        <div style="display: flex;
+        height: 50px;
+        border: 1px gray solid;
+        flex-direction: row;
+        justify-content: space-between;">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+            
+        </div>
+
+       <div style="display: grid;
+       margin-top: 10px;
+        border: 1px gray solid;">
+           <div style="display: flex;
+           margin-left: 10px;
+           margin-right: 10px;
+            justify-content: space-between;">
+            <p>Home</p>
+            <button style="background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;">14</button>
+            </div>
+
+            <div style="display: flex;
+           margin-left: 10px;
+           margin-right: 10px;
+            justify-content: space-between;">
+            <p>Notifications</p>
+            <button style="background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;">3</button>
+            </div>
+
+            <div style="display: flex;
+           margin-left: 10px;
+           margin-right: 10px;
+            justify-content: space-between;">
+            <p>Messages</p>
+            <button style="background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;">5</button>
+            </div>
+       </div>
+
+       <div style="display: flex;
+            margin-top: 10px;
+            height: 55px;
+            background-color: purple;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            ">
+           <div style="width: 100px;">
+               <p style="color: white;
+                margin-left: 10px;
+                font-weight: bold;">Home</p>
+
+           </div>
+            
+
+           <div style="flex: 1;">
+            <input type="text" placeholder="Search" style="border-radius: 8px;
+                border: none;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;">
+
+           </div>
+
+           <div style="width: 100px;">
+               <button style="margin-right: 10px;
+                background-color: transparent;
+                border: 1px white solid;
+                color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;">Download</button>
+
+           </div>
+       </div>
+
+       <div style="display: flex;
+        height: 50px;">
+           <div style="background-color: lightpink;
+            width: 100px;
+            display: flex;
+            justify-content: center;">
+        <p style="background-color: black;
+            color: white;">item1</p></div>
+
+           <div style="background-color: lightblue;
+           width: 200px;"></div>
+       </div>
+
+       <div style="display: flex;
+       margin-top: 10px;
+        height: 50px;
+        ">
+        <div style="background-color: lightpink;
+            width: 100px;"></div>
+
+        <div style="background-color: lightblue;
+           width: 200px;">
+            <div>row1</div>
+           <div style="display: flex;
+            justify-content: space-between;">
+            <div style="background-color: black;
+            color: white;">row2</div>
+            <div style="background-color: black;
+           color: white;">row2</div>
+           </div>
+            
+        </div>
+       </div>
+
+       <div style="box-shadow: 0 0 10px gray;
+       width: 240px;
+       margin-top: 10px;
+       border-radius: 5px; 
+      ">
+           <div style="font-size: 10px;
+           color: gray;
+           margin-left: 10px;
+           padding-top: 5px;
+           display: flex;
+           justify-content: start;">ALL INBOXES</div>
+
+           <div style="margin-left: 10px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding-bottom: 10px;
+           padding-right: 10px;
+           ">
+               
+                <img src="./beagle 2.png" style="width: 20px;
+                height: 20px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;">
+               
+               
+           
+               <div style="padding-top: 10px;
+               margin-left: 0;
+               padding-left: 0;">
+                <div style="display: flex;
+                justify-content: space-between;
+                align-items: center;"> 
+                    <div style="font-weight: bold;
+                    font-size: 12px;">Chewy Promotions</div>
+                    <div style="font-size: 10px;
+                    color: gray;">4:58 pm</div>
+
+                </div>
+                <div style="font-weight: bold;
+                font-size: 10px;">Biggest sales of the year!</div>
+               <div style="font-size: 10px;
+               color: gray;">Hey there! We're writing to tell you about our...</div>
+
+               </div> 
+               
+               
+               
+           </div>
+
+           <div style="margin-left: 10px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding-bottom: 10px;
+           padding-right: 10px;
+           ">
+               
+                <img src="./beagle 2.png" style="width: 20px;
+                height: 20px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;">
+               
+               
+           
+               <div style="padding-top: 10px;
+               margin-left: 0;
+               padding-left: 0;">
+                <div style="display: flex;
+                justify-content: space-between;
+                align-items: center;"> 
+                    <div style="font-weight: bold;
+                    font-size: 12px;">Chewy Promotions</div>
+                    <div style="font-size: 10px;
+                    color: gray;">4:58 pm</div>
+
+                </div>
+                <div style="font-weight: bold;
+                font-size: 10px;">Biggest sales of the year!</div>
+               <div style="font-size: 10px;
+               color: gray;">Hey there! We're writing to tell you about our...</div>
+
+               </div> 
+               
+               
+               
+           </div>
+       </div>
+
+       <div style="margin-top: 10px;">
+        <div>
+           <div style="display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding-bottom: 10px;
+           padding-right: 10px;">
+               <div style="object-position: top;
+               display: flex;
+               justify-content: start;">
+                   <img src="./beagle 2.png" style="width: 30px;
+                   height: 30px;
+                   object-fit: cover;
+                   object-position: center;
+                   border-radius: 50%;">
+               </div>
+               <div>
+                   <div style="display: flex;">
+                       <div>supersimple.dev</div>
+                       <div style="color: gray;">@SuperSimpleDev</div>
+                   </div>
+                   <div>
+                       <div>What is backend web development? A complete overeview. new video is up!</div>
+                   </div>
+               </div>
+               <div style="border: 1px solid gray;
+               border-radius: 5px;">
+                   <div>
+                       <div style="background-color: gray;"></div>
+                   </div>
+                   <div>
+                       <div>youtube.com</div>
+                       <div>Backend web development - a complete overview (2021)</div>
+                   </div>
+               </div>
+           </div>
+        </div>  
+       </div>
+
+       
+
+
+
+    </body>
+</html>

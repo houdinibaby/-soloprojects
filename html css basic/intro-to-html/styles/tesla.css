@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.header-1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 50px;   
+}
+
+.header-2 {
+    font-size: 20px;
+}
+
+.header-22 {
+    text-decoration: underline;
+}

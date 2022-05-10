@@ -1,0 +1,226 @@
+a {
+    color: rgb(0, 113, 133);
+}
+
+a:hover {
+    color: rgb(255, 164, 28);
+}
+
+.desc {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+.add-cart{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.add-cart:hover {
+    background-color: rgb(224, 190, 18);
+}
+
+.add-cart:active {
+    opacity: 0.6;
+}
+.buy-now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.buy-now:hover {
+    background-color: rgb(211, 135, 21);;
+}
+
+.buy-now:active {
+    opacity: 0.6;
+}
+
+.pagination-back {
+    padding: 5px 6px;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.pagination-next {
+    padding: 5px 6px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.num-btn {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.stretch-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: padding 0.15s;
+}
+
+.stretch-btn:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.shadow-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: box-shadow 0.15s;
+}
+
+.shadow-btn:active {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);;
+}
+
+.pad-num {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s,
+        margin 0.15s;
+}
+.pad-num:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.beagle-ph {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.beagle-ph1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.beagle-ph2 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.search-1 {
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    
+}
+
+.search-2 {
+    margin-top: 50px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.linkedin-1 {
+    font-size: 10px;
+}
+
+.linkedin-2 {
+    width: 200px;
+}
+
+.linkedin-3 {
+    font-size: 9px;
+    
+}
+
+.linkedin-4 {
+    font-size: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tweet-box1 {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tweet-box2 {
+    font-size: 10px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 10px;
+}
+
+.tweet-box3 {
+    background-color: blue;
+    color: white;
+    font-size: 7px;
+    font-weight: bold;
+    vertical-align: middle;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}

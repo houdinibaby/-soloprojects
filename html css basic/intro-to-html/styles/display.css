@@ -1,0 +1,293 @@
+.email-name,
+.email-address{
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-btn {
+    border: none;
+    padding: 10px 10px;
+    margin-right: 10px ;
+}
+
+.search-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 3px gray;
+    
+}
+
+.first-name,
+    .last-name {
+    padding-left: 5px;
+    margin-top: 50px;
+    width: 100px;
+    display: inline-block;
+}
+
+.login-email {
+    margin-top: 10px;
+    display: block;
+    width: 210px;
+    padding-left: 5px;
+}
+
+.login-btn {
+    margin-top: 5px;
+    display: block;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+
+.uber-btn {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+    border: none;
+    
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.uber-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.uber-location {
+    background-color:rgb(209, 209, 209);
+    display: block;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 80px;
+}
+
+.uber-destination {
+    background-color:rgb(209, 209, 209);
+    display: block;
+    border: none;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 80px;
+    
+}
+
+.uber-schedule {
+    background-color:rgb(209, 209, 209);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.uber-btn:hover {
+    opacity: 0.7;
+}
+
+
+.red-square {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: red;
+    padding: 20px 20px;
+   
+}
+
+.green-circle {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.question {
+    margin-top: 50px;
+    display: block;
+    width: 300px;
+    height: 100px;
+    border: 1px gray solid;
+}
+
+.question-1 {
+    display: block;
+    padding-left: 10px;
+}
+
+.question-btn {
+    margin-left: 10px;
+}
+
+
+.install-youtube {
+    margin-top: 20px;
+    display: block;
+    background-color: black;
+}
+
+.install-youtube p {
+    display: block;
+}
+
+.install-youtube1 {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+.install-youtube2 {
+    color: gray;
+    width: 350px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+}
+
+
+.tweet-box1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tweet-box2 {
+    font-size: 10px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 10px;
+}
+
+.tweet-box3 {
+    background-color: blue;
+    color: white;
+    font-size: 7px;
+    font-weight: bold;
+    vertical-align: middle;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.tweet {
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(209, 209, 209);
+}
+
+.add-person-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-items: center;
+
+}
+
+.add-person {
+    border: none;
+    box-shadow: 0 0 5px rgb(209, 209, 209);
+    margin-bottom: 0;
+}
+
+.add-person1 {
+    object-fit: cover;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+
+.addperson-photo {
+    
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.addperson-name {
+   
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.addperson-mutual {
+    font-size: 10px;
+    color: rgb(209, 209, 209);
+    margin-left: 3px;
+}
+
+.mutual-ting {
+    margin: 0;
+    width: 300px;
+   
+}
+
+.addperson-add {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+   
+}
